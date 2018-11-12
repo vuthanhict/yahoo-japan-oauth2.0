@@ -22,7 +22,7 @@ function randomString(len, an){
 * state = randomString(32, "an");
 * Authorizationエンドポイント
 */
-function yahooAuthorizationEndpoin(state) {
+function yahooAuthorizationEndpoint(state) {
     var url = "https://auth.login.yahoo.co.jp/yconnect/v2/authorization?";
     url = url + "response_type=code";
     url = url + "&client_id=dj00aiZpPXZpOGo2ZHFIeW1YbyZzPWNvbnN1bWVyc2VjcmV0Jng9NzI-"
